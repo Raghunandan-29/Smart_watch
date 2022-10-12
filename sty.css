@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat','Source Sans Pro' ;
+    background-color: rgb(213, 251, 251);
+}
+#content{
+    display: flex;
+}
+#img{
+    position: relative;
+    top: 100px;
+    right: -150px;
+}
+#heart{
+    display: none;
+    position: relative;
+    top: -370px;
+    right: -250px;
+}
+#heart > img{
+    width: 90px;
+    height: 90px;
+}
+#heart > h3{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    right: -25px;
+}
+
+#time{
+    display: block;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -360px;
+    right: -230px;
+
+}
+
+#wimg{
+    width:600px;
+    height: 600px;
+    position: relative;
+    
+ 
+}
+#rightsection{
+    position: relative;
+    top :100px;
+    right: -100px;
+}
+#text{
+    font-size: 24px;
+}
+#text>p{
+    color: rgb(16, 114, 16);
+    position: relative;
+    top: -20px;
+    right: -10px;
+}
+.tc{
+    font-size: 24px;
+}
+#color{
+    display: flex;
+}
+#red:hover{
+    transform: scale(1.1);
+}
+#black:hover{
+    transform: scale(1.1);
+}
+#blue:hover{
+    transform: scale(1.1);
+}
+#purple:hover{
+    transform: scale(1.1);
+}
+#red{
+    background-color: #ca3d22;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#black{
+    background-color: #23211f;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#blue{
+    background-color:#565681;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#purple{
+    background-color: #8a5362;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#tbtn{
+    background-color: rgb(169, 157, 157);
+    border-radius: 3px;
+    font-size: 18px;
+    margin-right: 16px;
+    font-weight: 600;
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#tbtn:hover{
+    transform: scale(1.1);
+}
+#hbtn{
+    background-color: rgb(169, 157, 157);
+    border-radius: 3px;
+    font-size: 18px;
+    margin-right: 16px;
+    font-weight: 600;
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#hbtn:hover{
+    transform: scale(1.1);
+}
+#bbtn{
+    margin-top: 40px;
+    border-radius: 3px;
+    font-size: 24px;
+    background-color: rgb(237, 155, 125);
+    font-weight: 400;
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#bbtn:hover{
+    transform: scale(1.1);
+}
